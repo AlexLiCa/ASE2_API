@@ -1,2 +1,2 @@
-# ASE2_API
-API de ase 2 
+# EscribAI
+API de una AI para corregir errores ortográficos con Flask
