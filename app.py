@@ -60,6 +60,7 @@ def tips(text):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    print("Hola")
 
 ########################################### VERSION CONSOLA Y OTROS #############################################
 # import os
