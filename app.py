@@ -21,10 +21,10 @@ def process():
 
 def correct(text):
     response = openai.Completion.create(
-        model="text-davinci-003",
+        model="gpt-3.5-turbo",
         prompt=f"Correct this to standard Spanish:\n\n{text}",
         temperature=0.5,
-        max_tokens=1500,
+        max_tokens=50,
         frequency_penalty=0.0,
         presence_penalty=0.0
     )
