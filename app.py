@@ -3,14 +3,14 @@ import os
 import openai
 import json
 from flask_cors import CORS
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import re
 
 # Carga las variables de entorno desde el archivo .env
-load_dotenv()
+# load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY") # Colocacion de la nueva llave
-a = os.getenv("OPENAI_API_KEY") 
+# a = os.getenv("OPENAI_API_KEY") 
 
 app = Flask(__name__)
 CORS(app)
